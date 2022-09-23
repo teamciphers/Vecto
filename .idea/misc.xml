@@ -8,10 +8,12 @@
         <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.222" />
         <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/drawable/ic_launcher_background.xml" value="0.222" />
         <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/drawable/login.xml" value="0.2555" />
-        <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/layout/activity_login_page.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/drawable/rectangle1.xml" value="0.2555" />
+        <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/layout/activity_login_page.xml" value="0.28125" />
         <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/layout/content_login_page.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/layout/fragment_first.xml" value="0.28125" />
         <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/layout/fragment_second.xml" value="0.28125" />
+        <entry key="..\:/Users/VEADER/AndroidStudioProjects/Vecto/app/src/main/res/layout/login_page_activity.xml" value="0.28815733219324496" />
       </map>
     </option>
   </component>
