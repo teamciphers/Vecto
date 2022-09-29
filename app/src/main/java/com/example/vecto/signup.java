@@ -15,12 +15,12 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.vecto.databinding.ActivityLoginPageBinding;
 
-public class LoginPage extends AppCompatActivity {
+public class signup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
+        setContentView(R.layout.activity_signup);
         getSupportActionBar().hide();
 
     }

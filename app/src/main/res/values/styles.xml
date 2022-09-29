@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="login_id">
+        <item name="android:textSize">
+            32sp
+        </item>
+        <item name="android:textColor">
+            #F5F5F5
+        </item>
+    </style>
+</resources>
