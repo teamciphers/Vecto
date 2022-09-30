@@ -1,34 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login"
     tools:context=".HomePage">
++
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_view_request"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rectangle1"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:hint="@string/viewrequest_hint"
+        android:inputType="textPersonName"
+        android:textColorHint="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.Vecto.AppBarOverlay">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_create_request"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rectangle1"
+        android:ems="10"
+        android:gravity="right|center_vertical"
+        android:hint="@string/createrequest_hint"
+        android:inputType="textPersonName"
+        android:textColorHint="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.Vecto.PopupOverlay" />
 
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <include layout="@layout/content_home_page" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

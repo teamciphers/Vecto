@@ -13,13 +13,13 @@
 
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="141dp"
                 android:layout_height="177dp"
-                android:layout_marginLeft="135dp"
                 android:width="141dp"
                 android:height="177dp"
                 app:srcCompat="@drawable/logo" />
@@ -141,7 +141,7 @@
             android:layout_marginTop="10dp">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button5"
+                android:id="@+id/btn_homepage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
