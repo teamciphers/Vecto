@@ -58,14 +58,15 @@
         android:id="@+id/hamburger"
         android:layout_width="30dp"
         android:layout_height="40dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="365dp"
         android:width="96dp"
         android:height="277dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/hamburger"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/hamburger" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
