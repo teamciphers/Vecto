@@ -16,5 +16,6 @@
     <string name="phoneno">Phone Number</string>
     <string name="enno">Enrollment No</string>
     <string name="title_activity_signup">signup</string>
+    <string name="title_activity_home_page">HomePage</string>
 
 </resources>
