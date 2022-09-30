@@ -17,4 +17,13 @@
         </item>
     </style>
 
+    <style name="quote_homepage">
+        <item name="android:textSize">
+            28dp
+        </item>
+        <item name="android:textColor">
+            #F5F5F5
+        </item>
+    </style>
+
 </resources>

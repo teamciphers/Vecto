@@ -5,40 +5,67 @@
     android:layout_height="match_parent"
     android:background="@drawable/login"
     tools:context=".HomePage">
-+
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_view_request"
-        android:layout_width="160dp"
-        android:layout_height="100dp"
-        android:background="@drawable/rectangle1"
-        android:ems="10"
-        android:gravity="left|center_vertical"
-        android:hint="@string/viewrequest_hint"
-        android:inputType="textPersonName"
-        android:textColorHint="#F5F5F5"
+
+    <ImageView
+        android:id="@+id/map_homepage"
+        android:layout_width="395dp"
+        android:layout_height="219dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="314dp"
+        android:width="96dp"
+        android:height="277dp"
+        android:alpha="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668" />
+        app:srcCompat="@drawable/map_pin" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_create_request"
-        android:layout_width="160dp"
+        android:layout_width="148dp"
         android:layout_height="100dp"
         android:background="@drawable/rectangle1"
         android:ems="10"
-        android:gravity="right|center_vertical"
         android:hint="@string/createrequest_hint"
         android:inputType="textPersonName"
         android:textColorHint="#F5F5F5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintHorizontal_bias="0.874"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668" />
+        app:layout_constraintVertical_bias="0.721" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_view_request"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/rectangle1"
+        android:ems="10"
+        android:hint="@string/viewrequest_hint"
+        android:inputType="textPersonName"
+        android:textColorHint="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <ImageView
+        android:id="@+id/hamburger"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="365dp"
+        android:width="96dp"
+        android:height="277dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hamburger"
+        tools:layout_editor_absoluteY="16dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
