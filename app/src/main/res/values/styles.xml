@@ -16,9 +16,5 @@
             #F5F5F5
         </item>
     </style>
-    <style name="viewrequest_homepage">
-        <item name="android:textColorHint">
-            #F5F5F5
-        </item>
-    </style>
+
 </resources>

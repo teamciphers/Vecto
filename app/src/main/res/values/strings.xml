@@ -19,5 +19,6 @@
     <string name="signup">New User? SignUp Here</string>
     <string name="title_activity_signup">signup</string>
     <string name="title_activity_home_page">HomePage</string>
-
+    <string name="viewrequest_hint"><font size="25">View\nRequest</font></string>
+    <string name="createrequest_hint"><font size="25">Create\nRequest</font></string>
 </resources>
