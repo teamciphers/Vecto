@@ -7,7 +7,7 @@
     tools:context=".LoginPage" >
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button5"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -98,7 +98,7 @@
         android:layout_marginBottom="20dp"
         android:text="@string/signup"
         android:textAppearance="@style/ask_sign_up"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
