@@ -13,8 +13,10 @@
     <string name="password">Password</string>
     <string name="emailid">Email ID</string>
     <string name="name">Name</string>
+    <string name="destination">Destination</string>
     <string name="phoneno">Phone Number</string>
     <string name="enno">Enrollment No</string>
+    <string name="signup">New User? SignUp Here</string>
     <string name="title_activity_signup">signup</string>
     <string name="title_activity_home_page">HomePage</string>
 
