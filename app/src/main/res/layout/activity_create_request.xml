@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:layout_centerHorizontal="true"
-                android:text="@string/enno"
+                android:text="Date"
                 android:textAppearance="@style/login_id" />
 
             <EditText
@@ -76,11 +76,192 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rectangle1"
                 android:ems="10"
-                android:hint="Enrollment No"
+                android:hint="Date"
                 android:layout_marginTop="60dp"
                 android:inputType="textPersonName"
                 android:textAlignment="center" />
         </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginLeft="40dp"
+                android:text="Preffered Gender"
+                android:textColor="@color/white"></TextView>
+
+            <RadioGroup
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="45dp"
+                android:id="@+id/q1">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Any"
+                    android:textSize="16sp"/>
+            </RadioGroup>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Luggage"
+                android:textAlignment="center"
+                android:layout_marginLeft="100dp"
+                android:textColor="@color/white"/>
+
+            <RadioGroup
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/q2"
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Handbag"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suitcase"
+                    android:textSize="16sp"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Car type"
+                android:textAlignment="center"
+                android:layout_marginLeft="100dp"
+                android:textColor="@color/white"/>
+
+            <RadioGroup
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/q3"
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mini"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MUV"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sedan"
+                    android:textSize="16sp"/>
+            </RadioGroup>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_marginLeft="80dp"
+                android:text="Travelling in"
+                android:textColor="@color/white"/>
+
+            <RadioGroup
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/q4"
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Group"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Solo"
+                    android:textSize="16sp"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/people"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle1"
+                android:ems="10"
+                android:hint="If in group enter number of people"
+                android:layout_marginTop="30dp"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
 
 
         <RelativeLayout
@@ -88,54 +269,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_gravity="center">
-
-            <TextView
-                android:id="@+id/email_id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/emailid"
-                android:textAlignment="center"
-                android:layout_centerHorizontal="true"
-                android:textAppearance="@style/login_id" />
-
-            <EditText
-                android:id="@+id/email_id__input"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/rectangle1"
-                android:ems="10"
-                android:hint="Email ID"
-                android:inputType="textPersonName"
-                android:textAlignment="center"
-                android:layout_marginTop="60dp" />
-        </RelativeLayout>
-
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_gravity="center">
-            <TextView
-                android:id="@+id/phone_no"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="@string/phoneno"
-                android:layout_centerHorizontal="true"
-                android:textAppearance="@style/login_id"/>
-
-            <EditText
-                android:id="@+id/phone_no_input"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
-                android:background="@drawable/rectangle1"
-                android:ems="10"
-                android:hint="Phone Number"
-                android:inputType="textPersonName"
-                android:textAlignment="center" />
-        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -156,6 +289,7 @@
                 app:rippleColor="@color/black" />
 
         </RelativeLayout>
+
 
 
     </LinearLayout>
