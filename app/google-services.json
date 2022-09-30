@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "273547445034",
+    "project_id": "vecto-364112",
+    "storage_bucket": "vecto-364112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273547445034:android:1efe5b6064a8b521665453",
+        "android_client_info": {
+          "package_name": "com.example.vecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273547445034-rkulpcrgfmu2hco4ip28m2fm00debllq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdgdkn2SdAEBJ31fwwLgUMDjdTj6F4iek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273547445034-rkulpcrgfmu2hco4ip28m2fm00debllq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
