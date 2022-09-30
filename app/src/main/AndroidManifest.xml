@@ -19,6 +19,9 @@
             android:label="@string/title_activity_home_page"
             android:theme="@style/Theme.Vecto.NoActionBar" />
         <activity
+            android:name=".create_request"
+            android:exported="false" />
+        <activity
             android:name=".signup"
             android:exported="false"
             android:label="@string/title_activity_signup"
