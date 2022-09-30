@@ -17,6 +17,7 @@
         android:width="96dp"
         android:height="277dp"
         android:alpha="0.8"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
