@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "273547445034",
-    "project_id": "vecto-364112",
-    "storage_bucket": "vecto-364112.appspot.com"
+    "project_number": "900712246184",
+    "firebase_url": "https://vecto-8be17-default-rtdb.firebaseio.com",
+    "project_id": "vecto-8be17",
+    "storage_bucket": "vecto-8be17.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:273547445034:android:1efe5b6064a8b521665453",
+        "mobilesdk_app_id": "1:900712246184:android:0b7931b8ab5c4d65188b9d",
         "android_client_info": {
           "package_name": "com.example.vecto"
         }
       },
       "oauth_client": [
         {
-          "client_id": "273547445034-rkulpcrgfmu2hco4ip28m2fm00debllq.apps.googleusercontent.com",
+          "client_id": "900712246184-tfpi4gd5bg03vfeqgh753g45723bsjsa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDdgdkn2SdAEBJ31fwwLgUMDjdTj6F4iek"
+          "current_key": "AIzaSyBSR3HCK8rxfqUsjq0znY1AsuUriujcNGE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "273547445034-rkulpcrgfmu2hco4ip28m2fm00debllq.apps.googleusercontent.com",
+              "client_id": "900712246184-tfpi4gd5bg03vfeqgh753g45723bsjsa.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
