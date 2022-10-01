@@ -101,33 +101,23 @@
                 android:text="Preffered Gender"
                 android:textColor="@color/white"></TextView>
 
-            <RadioGroup
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_marginTop="45dp"
-                android:id="@+id/q1">
+                android:layout_height="50dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rectangle1"
+                android:id="@+id/menu1"
+                android:hint="Select Gender"
+                >
 
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle1"
+                    android:id="@+id/drop_items1"/>
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Male"
-                    android:textSize="16sp"
-                    />
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Female"
-                    android:textSize="16sp"
-                    />
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Any"
-                    android:textSize="16sp"/>
-            </RadioGroup>
+            </com.google.android.material.textfield.TextInputLayout>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="300dp"
@@ -165,6 +155,25 @@
                     android:textSize="16sp"
                     />
             </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/rectangle1"
+                android:id="@+id/menu2"
+                android:hint="Number of bags.">
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle1"
+                    android:id="@+id/drop_items2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
         </RelativeLayout>
 
         <RelativeLayout
