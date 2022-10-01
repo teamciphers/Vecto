@@ -1,17 +1,18 @@
 package com.example.vecto;
 
 public class UserHelperClass {
-    String Name1,email1, pass1 ,Enrollment , Phone;
+    String Name1,email1, pass1 ,Uid,Enrollment , Phone;
 
     public UserHelperClass() {
     }
 
-    public UserHelperClass(String name1,String email1,String pass1 ,String enrollment , String phone) {
+    public UserHelperClass(String name1,String email1,String pass1 , String uid ,String enrollment , String phone) {
         this.Name1 = name1;
         this.email1 = email1;
         this.pass1 = pass1;
         this.Enrollment = enrollment;
         this.Phone = phone;
+        this.Uid = uid;
 
     }
 
@@ -38,6 +39,14 @@ public class UserHelperClass {
 
     public void setPass1(String pass1) {
         this.pass1 = pass1;
+    }
+
+    public String getUid() {
+        return Uid;
+    }
+
+    public void setUid(String uid) {
+        this.Uid = uid;
     }
 
     public String getEnrollment() {

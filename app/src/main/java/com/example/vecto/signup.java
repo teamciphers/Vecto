@@ -82,8 +82,9 @@ public class signup extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
+                                String uid = mAuth.getUid();
                                 Toast.makeText(signup.this, "SignUp Successful", Toast.LENGTH_SHORT).show();
-                                uhc = new UserHelperClass(Name1, email1, pass1, enrollment, phone);
+                                uhc = new UserHelperClass(Name1, email1, pass1,uid, enrollment, phone);
 
                                 openhomepage();
 
@@ -99,6 +100,8 @@ public class signup extends AppCompatActivity {
     }
         private void openhomepage() {
             Intent i = new Intent(signup.this, HomePage.class);
+            reference.child(mAuth.getUid()).setValue(uhc);
+            reference_alldata.child(mAuth.getUid()).setValue(uhc);
             startActivity(i);
         }
 }
