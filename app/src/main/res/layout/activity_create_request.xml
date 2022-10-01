@@ -88,7 +88,7 @@
         <RelativeLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:layout_gravity="center">
 
             <TextView
@@ -132,7 +132,7 @@
         <RelativeLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_gravity="center">
             <TextView
                 android:layout_width="wrap_content"
@@ -170,7 +170,7 @@
         <RelativeLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_gravity="center">
             <TextView
                 android:layout_width="wrap_content"
@@ -212,7 +212,7 @@
         <RelativeLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_gravity="center">
             <TextView
                 android:layout_width="wrap_content"
@@ -250,7 +250,7 @@
         <RelativeLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_gravity="center">
 
             <EditText
@@ -271,7 +271,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="15dp">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button5"
