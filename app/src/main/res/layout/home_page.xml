@@ -60,6 +60,7 @@
         android:layout_width="30dp"
         android:layout_height="40dp"
         android:width="96dp"
+        android:clickable="true"
         android:height="277dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
