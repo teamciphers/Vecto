@@ -59,7 +59,7 @@ public class LoginPage extends AppCompatActivity {
         log_in.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String pass = passwordEditText.getText().toString();
-                String email = emailEditText.getText().toString().toLowerCase();
+                String email = emailEditText.getText().toString().toLowerCase().replace(" ","");
                 if (email.isEmpty()) {
                     emailEditText.setError("Please enter email id");
                     emailEditText.requestFocus();
@@ -89,7 +89,9 @@ public class LoginPage extends AppCompatActivity {
 
     private void openHomePage() {
         Intent j = new Intent(LoginPage.this, HomePage.class);
+        j.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(j);
+        this.finish();
     }
 
 }
